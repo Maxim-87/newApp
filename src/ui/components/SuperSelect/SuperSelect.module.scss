@@ -1,0 +1,50 @@
+.selectContainer {
+  width: 160px;
+  display: flex;
+  align-items: center;
+
+}
+
+.selectLabel {
+  margin-bottom: 5px;
+  margin-right: 10px;
+  color: #2097c9;
+  font-family: -apple-system, Montserrat, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.select {
+  appearance: none;
+
+  text-align: center;
+  cursor: pointer;
+  min-width: 70px;
+  height: 40px;
+  background-color: #2097c9;
+  border-radius: 5px;
+
+  color: #222;
+  font-size: larger;
+  line-height: 21px;
+}
+
+.select:focus {
+  outline: none;
+  border: 1px solid #2097c9;
+}
+
+.option {
+  color: #2097c9;
+  background: #2097c9;
+}
+
+
+.option:hover {
+  transition: all .2s ease-in-out;
+}
+
+.option:checked {
+  background: #2097c9;
+  border-radius: 5px;;
+}
+

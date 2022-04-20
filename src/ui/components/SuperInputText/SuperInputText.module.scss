@@ -1,0 +1,28 @@
+.superInput {
+    color: #2097c9;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #2097c9;
+    padding: 18px 0 5px;
+    width: 100%;
+    outline: none;
+    margin-bottom: 5px;
+    transition: all .5s;
+    height: 48px;
+    font-size: 18px;
+    &:-webkit-autofill{
+        border: none;
+        -webkit-text-fill-color: #2097c9;
+        border-bottom: 1px solid #2097c9;
+        -webkit-box-shadow: 0 0 0 1000px #f6f6f6 inset;
+        transition: background-color 5000s ease-in-out 0s;
+    }
+}
+.errorInput {
+    border: 3px solid #2097c9;
+    background: red;
+}
+
+.error {
+    color: red;
+}

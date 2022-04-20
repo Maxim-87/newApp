@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  background-color: #58bd58;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px black;
+  animation: show 0.5s linear;
+  font-size: 20px;
+  z-index: 100;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.container span {
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.error {
+  background-color: #d53333;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

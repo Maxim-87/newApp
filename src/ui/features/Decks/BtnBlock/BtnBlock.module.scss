@@ -1,0 +1,23 @@
+.btnBlock {
+  //width: 200px;
+  //display: flex;
+  //justify-content: space-between;
+  //align-items: center;
+  //margin-bottom: 10px;
+
+  button {
+    padding: 5px 10px;
+    font-size: inherit;
+    border-radius: 4px;
+    margin-left: 15px;
+
+    &.active {
+      opacity: 0.2;
+    }
+  }
+
+  span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

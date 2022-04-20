@@ -1,0 +1,40 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+  min-height: 550px;
+  padding: 15px;
+}
+.formContainer{
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.btnBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.btnBlock button {
+  padding: 10px 20px;
+}
+
+.loginLink {
+  align-self: flex-end;
+}
+
+.errorMsg {
+  color: red;
+}
+.additionalMargin{
+  margin-top: 50px;
+}

@@ -1,0 +1,52 @@
+.headerBlock {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .navBlock {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        ul {
+            padding-left: 0;
+
+            li {
+                display: inline-block;
+                list-style-type: none;
+                padding-right: 10px;
+                .active {
+                    color: #2097c9;
+                    font-weight: 700;
+                }
+                a {
+                    text-decoration: none;
+                    color: #2097c9;;
+                    font-weight: 500;
+                }
+                &:last-child {
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}
+.button{
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #2097c9;;
+    border-radius: 5px;
+    color: #2097c9;;
+    padding: 13px 25px 13px 25px;
+    transition: all .5s;
+    font-weight: bold;
+    width: fit-content;
+    font-size: 18px;
+    &:hover{
+        background-color: #2097c9;;
+        color: #222222;
+    }
+}// fix later
